@@ -14,7 +14,7 @@ services:
       - "5000:5000"
     links: 
       - mongo
-    depends_on: 
+    depends_on: # This does not ensure that the mongo service is "Ready". Add a restart policy to ensure that the service is ready.
       - mongo
     restart: on-failure
       

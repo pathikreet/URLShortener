@@ -52,3 +52,4 @@
    Happy Exploring !!
    
    > This is very Simple demonstration of how we can shorten a URL. To make it production ready you should buy a short domain and use it instead of http://localhost 
+   > Here as a demonstration we have used a very simple logic to generate the random short code. There are a number of algorthims that we can design to generate the shortcode by adding some salt. I will try to keep updating this repository with various flavours of short code genartion techiques.
